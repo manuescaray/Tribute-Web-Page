@@ -1,64 +1,188 @@
-html {
-    padding: 10px 100px 200px 100px;
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#main {
+    width: 100%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: linear-gradient(45deg, #CCFFFF, #FFCCCC);
+    margin-bottom: 10vh;
 }
 
 h1 {
-    line-height: 1.1em;
-}
-
-body {
     text-align: center;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 4vmin;
-    line-height: 1.5em;
-    background: linear-gradient(45deg, #CCFFFF, #FFCCCC);
+    line-height: 50px;
+    font-size: 45px;
 }
 
-#tribute-info {
-    text-align: justify;
-    margin: auto;
-    width: 80%;
+#linux_master {
+    text-align: center;
+    margin: 10px auto 10px auto;
+    font-size: 25px;
+}
+
+hr {
+    margin-bottom: 15px;
+}
+
+#img-caption {
+    text-align: center;
+    padding-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 18px;
 }
 
 #tribute-title {
     text-align: center;
+    padding: 25px 30px 20px;
+    font-size: 40px;
+    color: #111;
+    line-height: 40px;
 }
 
-#img-div {
-    margin-block-start: 1em;
-    margin-block-end: 1em;
+#tribute-p {
+    text-align: justify;
+    margin: auto;
+    padding: 0px 30px 20px;
+    font-size: 20px;
+    color: #111;
+    line-height: 24px;
 }
 
 #image:hover {
     transform: scale(1.1);
     box-shadow: 5px 5px 20px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    margin-top: 30px;
 }
 
 #image {
     border-radius: 15px;
-    max-width: 100%;
-    height: auto;
+    display: block;
     margin-left: auto;
     margin-right: auto;
+    width: 220px;
+    height: auto;
     transition: 500ms ease-out;
-    display: block;
-}
 
-#img-caption {
-    padding-top: 10px;
-    font-size: 3vmin;
-}
-
-#linux_master {
-    text-align: center;
-    margin: auto;
-    width: 80%;
 }
 
 #more_info {
     text-align: justify;
-    font-size: 4vmin;
-    margin: 30px auto;
-    width: 80%;
+    font-size: 18px;
+    margin: auto;
+    padding: 20px 30px 50px;
+}
+
+@media only screen and (min-width: 768px) {
+    #main {
+        width: 600px;
+        margin: 0 auto;
+    }
+
+    h1 {
+        line-height: 60px;
+        font-size: 45px;
+    }
+
+    #linux_master {
+        font-size: 30px;
+    }
+
+    #img-caption {
+        font-size: 28px;
+    }
+
+    #tribute-title {
+        font-size: 50px;
+        padding: 70px 0px 25px;
+    }
+
+    #tribute-p {
+        padding: 20px 0px 0px;
+        font-size: 30px;
+        line-height: 35px;
+    }
+
+    #image:hover {
+        transform: scale(1.1);
+        box-shadow: 5px 5px 20px;
+        margin-bottom: 30px;
+        margin-top: 50px;
+    }
+
+    #image {
+        margin-top: 30px;
+        width: 220px;
+        height: auto;
+        transition: 500ms ease-out;
+    }
+
+    #more_info {
+        font-size: 28px;
+        margin: auto;
+        padding: 50px 30px 70px;
+    }
+
+}
+
+@media only screen and (min-width: 1000px) {
+    #main {
+        width: 1000px;
+        margin-bottom: 10vh;
+    }
+
+    h1 {
+        line-height: 60px;
+        font-size: 45px;
+    }
+
+    #linux_master {
+        font-size: 30px;
+    }
+
+    #img-caption {
+        text-align: center;
+        font-size: 20px;
+        width: 220px;
+        padding-right: 0px;
+        margin-right: 0px;
+        float: left;
+        clear: left;
+    }
+
+    #tribute-title {
+        font-size: 50px;
+        padding: 70px 0px 25px;
+    }
+
+    #tribute-p {
+        padding: 20px 30px 0px 100px;
+        margin-left: 250px;
+        font-size: 30px;
+        line-height: 35px;
+    }
+
+    #image:hover {
+        transform: scale(1.1);
+        box-shadow: 5px 5px 20px;
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+
+    #image {
+        margin-top: 30px;
+        margin-right: 60px;
+        float: left;
+        width: 220px;
+        height: 306px;
+        transition: 500ms ease-out;
+    }
+
+    #more_info {
+        clear: left;
+    }
+
 }
