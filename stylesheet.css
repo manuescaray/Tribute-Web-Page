@@ -1,0 +1,64 @@
+html {
+    padding: 10px 100px 200px 100px;
+}
+
+h1 {
+    line-height: 1.1em;
+}
+
+body {
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 4vmin;
+    line-height: 1.5em;
+    background: linear-gradient(45deg, #CCFFFF, #FFCCCC);
+}
+
+#tribute-info {
+    text-align: justify;
+    margin: auto;
+    width: 80%;
+}
+
+#tribute-title {
+    text-align: center;
+}
+
+#img-div {
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+
+#image:hover {
+    transform: scale(1.1);
+    box-shadow: 5px 5px 20px;
+    margin-bottom: 10px;
+}
+
+#image {
+    border-radius: 15px;
+    max-width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 500ms ease-out;
+    display: block;
+}
+
+#img-caption {
+    padding-top: 10px;
+    font-size: 3vmin;
+}
+
+#linux_master {
+    text-align: center;
+    margin: auto;
+    width: 80%;
+}
+
+#more_info {
+    text-align: justify;
+    font-size: 4vmin;
+    margin: 30px auto;
+    width: 80%;
+}
